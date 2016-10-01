@@ -9,36 +9,10 @@
     font-style: normal;
 }
 /* CSS reset */
-<<<<<<< Updated upstream
 h1,h2{
 	margin:0;
 	padding:0;
   font-size:100%;
-=======
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
-	margin:0;
-	padding:0;
-}
-html,body {
-	margin:0;
-	padding:0;
-}
-table {
-	border-collapse:collapse;
-	border-spacing:0;
-}
-fieldset,img {
-	border:0;
-}
-input{
-	border:1px solid #b0b0b0;
-	padding:3px 5px 4px;
-	color:#979797;
-	width:190px;
-}
-address,caption,cite,code,dfn,th,var {
-	font-style:normal;
->>>>>>> Stashed changes
 	font-weight:normal;
 }
 ul {
@@ -67,33 +41,22 @@ img {
 
 .container01 > header h1{
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	font-size: 35px;
-	line-height: 35px;
+	font-size: 60px;
+	line-height: 60px;
 	position: relative;
   text-align: center;
 	font-weight: 400;
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-<<<<<<< Updated upstream
-    padding: 0px 0px 5px 0px;
-}
-.container01 > header h1 span{
-
-}
-.container01 > header h2, p.info{
-=======
   padding: 0px 0px 5px 0px;
 }
 
-.container > header h2, p.info{
->>>>>>> Stashed changes
-	font-size: 16px;
+.container01 > header h2, p.info{
+	font-size: 25px;
 	font-style: italic;
 	color: #f8f8f8;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
-
-
 .header1{
   font-size: 28px;
   padding-bottom: 15px;
@@ -105,7 +68,6 @@ img {
 .des2{
   padding-bottom: 4px;
 }
-<<<<<<< Updated upstream
 .des3{
   font-style: italic;
 }
@@ -120,16 +82,3 @@ img {
   border: 3px solid green;
   padding: 10px;
 }
-=======
-/* Media Queries */
-@media screen and (max-width: 767px) {
-	.container > header{
-		text-align: center;
-	}
-	p.codrops-demos {
-		position: relative;
-		top: auto;
-		left: auto;
-	}
-}
->>>>>>> Stashed changes
