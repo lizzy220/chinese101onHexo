@@ -127,10 +127,11 @@
     -ms-animation-delay: 30s;
     animation-delay: 30s;
 }
-.center-field {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+.addi {
+    color: white;
+    padding-top: 120px;
+    font-size: 3em !important;
+    opacity: 0.7 !important;
 }
 @-webkit-keyframes imageAnimation {
 	0% {

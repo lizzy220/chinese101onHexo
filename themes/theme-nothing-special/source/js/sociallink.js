@@ -48,7 +48,7 @@ $(document).ready(function(){
                 ease:Elastic.easeOut,
                 easeParams:[1.1,0.6]
             })
-                
+
             TweenMax.fromTo($cur.children(".share-icon"),0.2,{
                 scale:0
             },{
@@ -79,7 +79,7 @@ $(document).ready(function(){
                 scale:.95,
                 ease:Quad.easeInOut,
             });
-                
+
             TweenMax.to($cur.children(".share-icon"),0.2,{
                 scale:0,
                 ease:Quad.easeIn
@@ -95,5 +95,5 @@ $(document).ready(function(){
     $toggleButton.on("mousedown",function(){
         toggleShareMenu();
     })
-    
+
 })
