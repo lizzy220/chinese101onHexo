@@ -6,7 +6,15 @@
         <section id="slides">
             <!-- <%- partial('_partial/slides', null, {cache: !config.relative_link}) %> -->
         </section>
-        <section id="main"><%- body %></section>
+        <section id="main">
+            <div class='ui grid'>
+                <div class='four wide column'></div>
+                <div class='eight wide column'>
+                <%- body %>
+                </div>
+                <div class='four wide column'></div>
+            </div>
+        </section>
       </div>
     </div>
     <%- partial('_partial/footer') %>
