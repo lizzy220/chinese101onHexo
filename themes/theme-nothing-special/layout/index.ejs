@@ -1,7 +1,18 @@
 <h1>CHINESE 101</h1>
 
-<ul>
+<div class="ui middle aligned selection animated list">
   <% site.posts.each(function(post){ %>
-    <li><a href="<%- url_for(post.path) %>"><%= post.title %></a></li>
-  <% }) %>
-</ul>
+    <div class="item">
+      <i class="file text icon"></i>
+      <!-- <img class="ui avatar image" src="/images/avatar/small/helen.jpg"> -->
+      <div class="content">
+        <div class="header">
+          <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+        </div>
+        <div class="description">
+          明尼阿波利斯 Minneapolis 明尼阿波利斯 Minneapolis 明尼阿波利斯 Minneapolis
+        </div>
+      </div>
+    </div>
+  <% }); %>
+</div>
