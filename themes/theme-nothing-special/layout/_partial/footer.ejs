@@ -1,0 +1,8 @@
+<script>
+$('.speak').on('click', function(){
+        var msg = new SpeechSynthesisUtterance('中国');
+        msg.lang = 'zh-CN';
+        msg.rate = 0.8;
+        window.speechSynthesis.speak(msg);
+});
+</script>
