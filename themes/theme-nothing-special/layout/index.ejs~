@@ -14,12 +14,7 @@
                 <a href="<%- url_for(post.path) %>"><%= post.title %></a>
               </div> 
               
-           <div class="description des1">
-                <% post.tags.each(function(tag) { %>
-                    <a class="ui tag label">
-                        <%=  tag.name %>
-                    </a>
-                    <% }); %></div>  
+           <div class="description des1"><%= post.tags %></div>  
        
               <div class="description des2">Description Description Description Description Description Description Description Description Description Description Description</div>
               <div class="description des3">Posted by nothing special 2016-10-01</div>
