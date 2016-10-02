@@ -1,29 +1,29 @@
-<div class='post'>
-<div class="post_title">
-    <h1 class="ui header">
-        <%- post.title %>
-    </h1>
-</div>
-<div class="ui container post_content">
-    <div class="ui piled segment">
-        <a class="ui red ribbon label">
-            <%- post.date.startOf('hour').fromNow()%>
-        </a>
-        <br>
-        <br>
-        <%- post.content %>
-        <div class="post_tages">
-        <% post.tags.each(function(tag) { %>
-            <a class="ui tag label post_tages">
-                <%= tag.name %>
-            </a>
-        <% }); %>
+<div class='post_page'>
+    <div class="post_title">
+        <h1 class="ui header">
+            <%- post.title %>
+        </h1>
     </div>
-  </div>
-</div>
-</div>
-<script>
-$('.post')
-  .transition('pulse')
-;
-</script>
+    <div class="ui container post_content">
+        <div class="ui piled segment">
+            <a class="ui red ribbon label">
+                <%- post.date.startOf('hour').fromNow()%>
+            </a>
+            <br>
+            <br>
+            <%- post.content %>
+            <div class="post_tages">
+                <% post.tags.each(function(tag) { %>
+                    <a class="ui tag label">
+                        <%=  tag.name %>
+                    </a>
+                    <% }); %>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    $('.post_page')
+    .transition('pulse')
+    ;
+    </script>
