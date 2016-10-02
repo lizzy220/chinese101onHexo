@@ -2,10 +2,16 @@
     margin-top: 10%;
 }
 
-.post_title h1 {
-    font-size: 5em;
+.post_title.h1 {
+    font-size: 10em;
 }
 
 .post_content {
     margin-top: 1em;
+    padding: 1em;
+}
+
+.post_tages {
+    direction: rtl;
+    padding: 1em;
 }

@@ -2,6 +2,9 @@
 title: 家(Home)
 date: 2016-09-29 12:03:28
 tags:
+- basic
 ---
 {% wordcard 家 jiā %}
-“家”是个多义词，它可以指家（周国平散文）, 家（韩少云评剧剧目）, 家（沈化方、姜延辉创作歌曲）, 家（英格玛演唱歌曲）, 家（罗大佑专辑）, 家（1956年陈西禾、叶明执导电影）, 家（A-lin演唱歌曲）, 家（南拳妈妈演唱歌曲）, 家（张艺军演唱歌曲）, 家（2011年人艺话剧）, 家（1941年卜万苍等执导电影）, 家（2010年纪录片）, 家（单机游戏）, 家（2011年韩国动画片）, 家（巴金小说）, 家（赵咏华演唱歌曲）, 家（芭蕾舞剧）, 家（陈可辛2014年执导电影）, 家（神马乐团歌曲）, 家（苏小明演唱歌曲）, 家（托妮·莫里森小说）, 家（玛丽·哈维斯提克导演电影）, 家（柯以敏音乐专辑）, 家（张信哲演唱歌曲）, 家（汉字）, 家（戴娆演唱歌曲）, 家（汉语解释）, 家（越剧剧目）。
+A home is a dwelling-place used as a permanent or semi-permanent residence for an individual, family, household or several families in a tribe. It is often a house, apartment, or other building, or alternatively a mobile home, houseboat, yurt or any other portable shelter. Homes typically provide areas and facilities for sleeping, preparing food, eating and hygiene. Larger groups may live in a nursing home, children's home, convent or any similar institution. A homestead also includes agricultural land and facilities for domesticated animals. Where more secure dwellings are not available, people may live in the informal and sometimes illegal shacks found in slums and shanty towns. More generally, "home" may be considered to be a geographic area, such as a town, village, suburb, city, or country.
+
+Transitory accommodation in a treatment facility for a few weeks is not normally considered permanent enough to replace a more stable location as 'home'.In 2005, 100 million people worldwide were estimated to be homeless.
