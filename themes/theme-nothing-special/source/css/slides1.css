@@ -21,7 +21,9 @@ ul {
 img {
 	border:0;
 }
-
+.homepage{
+  height: 100vh;
+}
 /* General Demo Style */
 .container01{
 	position: relative;
