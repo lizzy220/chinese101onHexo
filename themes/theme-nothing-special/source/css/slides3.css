@@ -4,27 +4,22 @@ a{
     text-decoration: inherit;
 }
 .bdsharebuttonbox {
-    max-width: 600px;
-    height: 100px;
     margin: 0 auto;
-    -webkit-filter: url("#goo");
-    filter: url("../share.html#goo");
+    text-align: center;
     position: relative;
 }
 .share-button, .share-toggle-button {
     position: absolute;
     display: inline-block;
-    left: 50%;
-    top: 50%;
+    left: 47%;
+    top: 10%;
     border-radius: 50%;
     width: 60px;
     height: 60px;
     line-height: 60px;
-    margin-left: -30px;
-    margin-top: -30px;
-    background: #258FB8;
+    background: #FFFAFA;
     text-align: center;
-    color: #fff;
+    color: #C0C0C0;
     border: none;
     outline: none;
 }
@@ -39,7 +34,7 @@ a{
     height: 60px;
     -webkit-transform: scale(0.95, 0.95);
     transform: scale(0.95, 0.95);
-    color: #FFF;
+    color: #C0C0C0;
 }
 .share-toggle-button {
     z-index: 9;
@@ -52,13 +47,4 @@ a{
 }
 .share-item {
     display: inline-block;
-}
-.fx {
-    color: #FFF;
-    font: normal normal normal 36px/1 FontAwesome;
-}
-.bdshare-button-style0-24 a:{
-    color: #333;
-    opacity: 1;
-    filter: alpha(opacity=80)
 }

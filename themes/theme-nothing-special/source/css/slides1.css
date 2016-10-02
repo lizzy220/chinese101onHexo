@@ -27,11 +27,11 @@ img {
 	position: relative;
 	text-align: center;
 }
-.clr{
+/*.clr{
 	clear: both;
-}
-.container01 > header{
-	padding: 200px 30px 10px 20px;
+}*/
+.container01 > div{
+	padding: 180px 30px 10px 20px;
 	margin: 0px 20px 10px 20px;
 	position: relative;
 	display: block;
@@ -39,7 +39,7 @@ img {
   text-align: center;
 }
 
-.container01 > header h1{
+.container01 > div h1{
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 	font-size: 60px;
 	line-height: 60px;
@@ -51,11 +51,17 @@ img {
   padding: 0px 0px 5px 0px;
 }
 
-.container01 > header h2, p.info{
+.container01 > div h2, p.info{
 	font-size: 25px;
 	font-style: italic;
 	color: #f8f8f8;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+.addi {
+    color: white;
+    padding-top: 0px;
+    font-size: 3em !important;
+    opacity: 0.7 !important;
 }
 .header1{
   font-size: 28px;
