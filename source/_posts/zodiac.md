@@ -4,7 +4,7 @@ date: 2016-10-02 13:49:48
 tags:
   - Chinese Zodiac
 ---
-{% wordcard 属相 shuxiang %}
+{% wordcard 属相 shǔ xiàng %}
 Your Chinese Zodiac sign is derived from your birth year, according to the Chinese lunar calendar. See the years of each animal below or use the calculator on the right to determine your own sign.
 
 Those born in January and February take care: Chinese (Lunar) New Year moves between 21 January and February 20. If you were born in January or February, check whether your birth date falls before or after Chinese New Year to know what your Chinese zodiac year is.

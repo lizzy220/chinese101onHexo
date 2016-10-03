@@ -4,7 +4,7 @@ date: 2016-10-02 13:44:11
 tags:
   - Tea
 ---
-{% wordcard 茶 cha %}
+{% wordcard 茶 chá %}
 The history of Chinese tea is a long and gradual story of refinement. Generations of growers and producers have perfected the Chinese way of manufacturing tea, and its many unique regional variations.
 
 The original idea is credited to the legendary Emperor Shennong, who is said to have lived 5 000 years ago. His far-sighted edicts required, among other things, that all drinking water be boiled as a hygienic precaution. A story goes that, one summer day, while visiting a distant part of his realm, he and the court stopped to rest. In accordance with his ruling, the servants began to boil water for the court to drink. Dried leaves from a nearby bush fell into the boiling water, and a brown substance was infused into the water. As a scientist, the Emperor was interested in the new liquid, drank some, and found it very refreshing. And so, according to legend, tea was created in 2737 BC.
@@ -22,4 +22,3 @@ Drinking tea offers numerous benefits. It refreshes the mind, clears heat within
 
 5. Green tea is the best option for office workers. Green tea contains catechins that help prevent computer radiation and supplement moisture content of the human body.
 ![](https://static01.nyt.com/images/2013/05/21/science/21welltea/21welltea-tmagArticle.jpg)
-
