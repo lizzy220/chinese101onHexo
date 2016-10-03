@@ -65,6 +65,10 @@ img {
     font-size: 3em !important;
     opacity: 0.7 !important;
 }
+.addi:hover{
+    opacity: 1 !important;
+    font-size: 4em !important;
+}
 .header1{
   font-size: 28px;
   padding-bottom: 15px;

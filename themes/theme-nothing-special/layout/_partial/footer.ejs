@@ -6,4 +6,14 @@ $('.speak').on('click', function(){
         msg.rate = 0.8;
         window.speechSynthesis.speak(msg);
 });
+$(document).ready(function(){
+  setInterval(function () {
+      $('.addi').transition('bounce');
+    }, 2000);
+});
+$('.addi').on('click',function(){
+  $('html, body').animate({
+  scrollTop: $(".poststart").offset().top
+}, 1000);
+});
 </script>
