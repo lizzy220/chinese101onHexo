@@ -22,8 +22,7 @@
                 <% }); %>
               </div>
 
-              <div class="description des2"></div>
-              <div class="description des3">Posted by nothing special <%= post.date%></div>
+              <div class="description des2">posted by nothing special <%- post.date.startOf('hour').fromNow()%></div>
             </div>
           </div>
           <br>

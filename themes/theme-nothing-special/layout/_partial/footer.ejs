@@ -11,6 +11,13 @@ $(document).ready(function(){
       $('.addi').transition('bounce');
     }, 2000);
 });
+
+/*
+window.onbeforeunload = function () {
+  window.scrollTo(0,0);
+}
+*/
+
 $('.addi').on('click',function(){
   $('html, body').animate({
   scrollTop: $(".poststart").offset().top
