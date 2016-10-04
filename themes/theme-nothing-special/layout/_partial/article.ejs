@@ -1,36 +1,58 @@
 <div class="ui grid">
-<div class='five wide column'></div>
-<div class='ten wide column'>
-<div class='post_page'>
-    <div class="post_title">
-        <h1 class="ui header">
-            <%- post.title %>
-        </h1>
-    </div>
-    <div class="ui container post_content">
-        <div class="ui piled segment">
-            <a class="ui red ribbon label">
-                <%- post.date.startOf('hour').fromNow()%>
-            </a>
-            <br>
-            <br>
-            <%- post.content %>
-            <div class="post_tages">
-                <% post.tags.each(function(tag) { %>
-                    <a class="ui tag label">
-                        <%=  tag.name %>
-                    </a>
-                    <% }); %>
-                </div>
+    <div class='five wide column'></div>
+    <div class='ten wide column grid'>
+        <div class='post_page'>
+            <div class="post_title">
+                <h1 class="ui left floated column header">
+                    <%- post.title %>
+                </h1>
+                <!-- <div class="ui right floated column animated mini basic red button" tabindex="0">
+                    <div class="hidden content"><a href="<%= theme.home %>" style="font-size:1.3em;">Home</a></div>
+                    <div class="visible content">
+                        <i class="large home icon"></i>
+                    </div>
+                </div> -->
             </div>
-        </div>
-    </div>
-</div>
-<div class='one wide column'></div>
-<div>
+            <div class="row post_content">
+                <div class="ui piled segment ">
+                    <a class="ui red ribbon label">
+                        <%- post.date.startOf('hour').fromNow()%>
+                    </a>
+                    <div class="post_tages">
+                        <% post.tags.each(function(tag) { %>
+                            <a class="ui tag yellow label">
+                                <%=  tag.name %>
+                            </a>
+                            <% }); %>
+                        </div>
+                        <%- post.content %>
+                        <div class="post_navs">
+                            <% if (post.prev) {%>
+                                <div class="ui bottom left red basic label">
+                                    <i class="left chevron icon" style="margin-left:-0.1em; margin-right: 1em"></i>
+                                    <a class="label" href="<%- url_for(post.prev.path) %>"><%= post.prev.title %></a>
+                                </div>
+                                <% } %>
+                                <div class="ui bottom right red basic label">
+                                    <i class="home icon"></i>
+                                    <a href="<%= theme.home %>">Home</a>
+                                </div>
+                                <% if (post.next) {%>
+                                    <div class="ui bottom center red basic label">
+                                        <a href="<%- url_for(post.next.path) %>"><%= post.next.title %></a>
+                                        <i class="right chevron icon" style="margin-right:-0.1em; margin-left: 1em"></i>
+                                    </div>
+                                    <% } %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='one wide column'></div>
+                <div>
 
-    <script>
-    $('.post_page')
-    .transition('pulse')
-    ;
-    </script>
+                    <script>
+                    $('.post_page')
+                    .transition('pulse')
+                    ;
+                    </script>
