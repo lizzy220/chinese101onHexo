@@ -1,5 +1,5 @@
-@import url(http://luuman.github.io/font-awesome/css/font-awesome.min.css);
-/*CSS源代码*/
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
 a{
     text-decoration: inherit;
 }
