@@ -3,9 +3,12 @@
 [Project Requirements (Google Docs)](https://docs.google.com/document/d/1r5wWHmiqGrdrwhDOrO39RLZAFltqzKhnLjJGAQOHip8/edit#heading=h.b2ago5rmu5es)
 
 ## Authors
+- Team: nothingspecial
 - Xi Chen _chen4656_
 - Yanyang Tang _tangx668_
-TODO: Team name + x500 of participants
+- Wei Ni _nixxx169_
+- Yangyun Li _lixx3524_
+- Vas Grin _grin0098_
 
 ## Link
 [Chinese 101](http://chinese101.herokuapp.com)
