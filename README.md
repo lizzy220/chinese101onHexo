@@ -8,7 +8,7 @@
 - Yanyang Tang _tangx668_
 - Wei Ni _nixxx169_
 - Yangyun Li _lixx3524_
-- Vas Grin _grin0098_
+- Vasiliy Grin _grin0098_
 
 ## Link
 [Chinese 101](http://chinese101.herokuapp.com)
