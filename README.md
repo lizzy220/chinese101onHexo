@@ -1,14 +1,9 @@
-# Hexo Group Project
-
-[Project Requirements (Google Docs)](https://docs.google.com/document/d/1r5wWHmiqGrdrwhDOrO39RLZAFltqzKhnLjJGAQOHip8/edit#heading=h.b2ago5rmu5es)
-
 ## Authors
-- Team: nothingspecial
-- Xi Chen _chen4656_
-- Yanyang Tang _tangx668_
-- Wei Ni _nixxx169_
-- Yangyun Li _lixx3524_
-- Vasiliy Grin _grin0098_
+- Yanyang Tang _tangx668@umn.edu_
+- Xi Chen _chen4656@umn.edu_
+- Wei Ni _nixxx169@umn.edu_
+- Yangyun Li _lixx3524@umn.edu_
+- Vasiliy Grin _grin0098@umn.edu_
 
 ## Link
 [Chinese 101](http://chinese101.herokuapp.com)
